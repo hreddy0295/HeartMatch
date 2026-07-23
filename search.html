@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HeartMatch - Search Matches</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:600px;
+    margin:auto;
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    color:#e91e63;
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#e91e63;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#c2185b;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Search Matches</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" placeholder="Enter Name">
+
+<label>Age From</label>
+<input type="number" placeholder="Minimum Age">
+
+<label>Age To</label>
+<input type="number" placeholder="Maximum Age">
+
+<label>Religion</label>
+<select>
+<option>Select Religion</option>
+<option>Hindu</option>
+<option>Muslim</option>
+<option>Christian</option>
+<option>Sikh</option>
+<option>Other</option>
+</select>
+
+<label>Caste</label>
+<input type="text" placeholder="Enter Caste">
+
+<label>Location</label>
+<input type="text" placeholder="City / State">
+
+<label>Education</label>
+<input type="text" placeholder="Highest Qualification">
+
+<label>Occupation</label>
+<input type="text" placeholder="Occupation">
+
+<label>Marital Status</label>
+<select>
+<option>Select Status</option>
+<option>Never Married</option>
+<option>Divorced</option>
+<option>Widowed</option>
+</select>
+
+<button type="submit">Search</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
