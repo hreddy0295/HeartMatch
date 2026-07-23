@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HeartMatch - Messages</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
+
+.header{
+    background:#e91e63;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.container{
+    max-width:600px;
+    margin:20px auto;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.chat{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+.name{
+    font-weight:bold;
+    color:#e91e63;
+}
+
+.time{
+    float:right;
+    color:gray;
+    font-size:12px;
+}
+
+.message{
+    margin-top:5px;
+    color:#555;
+}
+
+.input-area{
+    padding:15px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    margin-top:10px;
+    padding:12px;
+    background:#e91e63;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#c2185b;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h2>Messages</h2>
+</div>
+
+<div class="container">
+
+<div class="chat">
+<span class="name">Priya</span>
+<span class="time">10:30 AM</span>
+<p class="message">Hello! Nice to connect with you.</p>
+</div>
+
+<div class="chat">
+<span class="name">Rahul</span>
+<span class="time">Yesterday</span>
+<p class="message">Thank you for showing interest in my profile.</p>
+</div>
+
+<div class="chat">
+<span class="name">Anjali</span>
+<span class="time">Monday</span>
+<p class="message">Can we discuss our family details?</p>
+</div>
+
+<div class="input-area">
+<input type="text" placeholder="Type your message...">
+<button>Send Message</button>
+</div>
+
+</div>
+
+</body>
+</html>
